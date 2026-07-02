@@ -1,165 +1,181 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1f2937&height=200&section=header&text=Parthasarathi%20M&fontSize=50&fontColor=58a6ff&animation=fadeIn&fontAlignY=35&desc=aka%20Cibi%20%F0%9F%91%BE%20%7C%20I%20turn%20coffee%20into%20UIs&descSize=18&descAlignY=58&descFontColor=8b949e"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:0a192f,100:112240&height=160&section=header&text=LinkedIn%20Profile%20Audit&fontSize=38&fontColor=64ffda&animation=fadeIn&fontAlignY=40&desc=Conversion-Focused%20Landing%20Page&descSize=16&descAlignY=62&descFontColor=8892b0"/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=Frontend+Dev+by+day+%F0%9F%92%BB;Bug+Creator+%26+Fixer+by+night+%F0%9F%90%9B;SQL+Whisperer+%F0%9F%97%84%EF%B8%8F;Healthcare+CRM+Builder+%F0%9F%8F%A5;AI+Tools+Addict+%F0%9F%A4%96;console.log(%22still+learning%22)+%F0%9F%98…)](https://git.io/typing-svg)
+<br/>
 
-<img src="https://komarev.com/ghpvc/?username=cibi0404&label=Profile+Views&color=58a6ff&style=flat-square"/>
-&nbsp;
-<img src="https://img.shields.io/github/followers/cibi0404?label=Followers&style=flat-square&color=58a6ff"/>
+![Status](https://img.shields.io/badge/Status-Live-64ffda?style=flat-square&labelColor=0d1117)
+![Built With](https://img.shields.io/badge/Built_With-HTML5_%7C_Tailwind_CSS-64ffda?style=flat-square&labelColor=0d1117)
+![Deployed On](https://img.shields.io/badge/Deployed_On-Vercel-64ffda?style=flat-square&labelColor=0d1117&logo=vercel)
+![License](https://img.shields.io/badge/License-MIT-64ffda?style=flat-square&labelColor=0d1117)
+
+<br/>
+
+**A fully responsive, performance-optimised landing page engineered for LinkedIn profile audit service acquisition.**
+Architected with a conversion-first design system — structured to drive user engagement, build trust through social proof, and funnel visitors toward a clear call-to-action.
+
+<br/>
+
+[![View Live Demo](https://img.shields.io/badge/VIEW_LIVE_DEMO-0d1117?style=for-the-badge&logo=vercel&logoColor=64ffda&labelColor=0d1117)](https://linkedin-landing-page-tau.vercel.app/)
 
 </div>
 
 ---
 
-<img align="right" width="340" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif"/>
+## Table of Contents
 
-## 🧑‍💻 Who tf is this guy?
+- [Overview](#overview)
+- [Tech Stack](#tech-stack)
+- [Architecture](#architecture)
+- [Page Structure](#page-structure)
+- [Getting Started](#getting-started)
+- [Deployment](#deployment)
+- [Author](#author)
 
-```javascript
-const cibi = {
-  name      : "Parthasarathi M (Cibi 👾)",
-  age       : "fresher but make it senior 😅",
-  location  : "Chennai, India 🇮🇳",
-  company   : "Sterlo Pvt Ltd (OREOPS)",
-  role      : "Programmer Analyst",
+---
 
-  skills    : ["JS", "SQL", "HTML", "CSS", "Tailwind", "React (pls)"],
-  superpower: "Breaking prod on Fridays 💀",
-  hobbies   : ["Coding", "Debugging what I just coded", "Fashion 👕"],
+## Overview
 
-  currentMood : "git commit -m 'it works, don't touch it'",
-  lifeGoal    : "Senior Dev before chai gets cold ☕",
+This project is a production-grade marketing landing page built to convert organic and referral traffic into qualified LinkedIn audit leads. The UI is engineered around core conversion rate optimisation (CRO) principles — above-the-fold CTA placement, trust signals via testimonials, and a frictionless service walkthrough.
 
-  aiAssistants: ["Claude 🤖", "ChatGPT 🤖", "GitHub Copilot 🤖"],
-  confession  : "I asked Claude to write this README 🙈"
-};
+Key design decisions:
+
+- **Mobile-first architecture** — layout designed for 320px viewport, progressively enhanced to desktop
+- **Utility-first CSS** via Tailwind CSS — zero unused styles, minimal render-blocking CSS
+- **AI-assisted development** — Claude and ChatGPT used for layout ideation, UX copywriting, and component refinement
+- **Zero-dependency frontend** — no JavaScript frameworks, no npm, no build step required
+
+---
+
+## Tech Stack
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=html,css,tailwind,vercel,vscode,git&theme=dark&perline=6"/>
+
+</div>
+
+<br/>
+
+| Layer | Technology | Purpose |
+|:------|:-----------|:--------|
+| **Markup** | HTML5 | Semantic page structure, accessibility-first |
+| **Styling** | CSS3 | Custom animations, transitions, hover states |
+| **Framework** | Tailwind CSS | Utility-first responsive design system |
+| **Hosting** | Vercel | CI/CD pipeline, edge deployment, HTTPS |
+| **Dev Tools** | VS Code, Chrome DevTools | Development and performance profiling |
+| **AI Tooling** | Claude, ChatGPT | Copy refinement, layout ideation |
+
+---
+
+## Architecture
+
+```
+linkedin-landing-page/
+│
+├── index.html              # Entry point — semantic HTML5 structure
+├── style.css               # Custom overrides and animation keyframes
+│
+├── assets/
+│   ├── images/             # Optimised WebP/PNG assets
+│   └── icons/              # SVG icon set
+│
+└── README.md               # Project documentation
 ```
 
-<br clear="both"/>
+---
+
+## Page Structure
+
+The page is segmented into focused conversion zones, each serving a distinct role in the user acquisition funnel:
+
+```
+[ NAVBAR          ]  —  Brand identity + anchor navigation
+[ HERO            ]  —  Primary headline + above-the-fold CTA
+[ PAIN POINTS     ]  —  Problem identification — user resonance
+[ WHAT YOU GET    ]  —  Service deliverables — value articulation
+[ HOW IT WORKS    ]  —  3-step process — friction reduction
+[ TESTIMONIALS    ]  —  Social proof — trust building
+[ FINAL CTA       ]  —  Conversion trigger — action zone
+[ FOOTER          ]  —  Contact details + secondary links
+```
 
 ---
 
-## 🛠️ My Arsenal
+## Getting Started
 
-<div align="center">
+Clone and run locally — zero dependencies, zero configuration required.
 
-### Things I Actually Know
-<img src="https://skillicons.dev/icons?i=html,css,js,tailwind,sql&theme=dark&perline=5"/>
+```bash
+# Clone the repository
+git clone https://github.com/cibi0404/linkedin-landing-page.git
 
-### Things I'm Pretending to Know
-<img src="https://skillicons.dev/icons?i=react,docker,nodejs&theme=dark&perline=5"/>
+# Navigate into the project directory
+cd linkedin-landing-page
 
-### Tools I Can't Live Without
-<img src="https://skillicons.dev/icons?i=git,github,vscode,postman,vercel&theme=dark&perline=5"/>
+# Open directly in browser
+open index.html
 
-### My AI Overlords 🤖
-<img src="https://skillicons.dev/icons?i=githubactions&theme=dark"/>
-&nbsp; Claude · ChatGPT · GitHub Copilot *(they do 60%, I take 100% credit)*
+# Or serve locally with VS Code Live Server extension
+# Right-click index.html -> Open with Live Server
+```
 
-</div>
-
----
-
-## 💼 My Day Job (Yes I Have One 😤)
-
-<div align="center">
-<img src="https://img.shields.io/badge/Sterlo_Pvt_Ltd-Aug_2024_–_Now-58a6ff?style=flat-square&logo=briefcase"/>
-</div>
-
-**Programmer Analyst | OREOPS / STERLO Platform**
-
-> *"I build healthcare CRM dashboards so doctors don't have to use Excel sheets"* 😅
-
-- 🏥 Built **CCRMS dashboards** — patient management, clinical trials, billing, call tracking
-- 🔗 Connected SQL Server to live UIs via **REST APIs** *(aka making databases talk to buttons)*
-- 📊 Wrote cursed **stored procedures** across 6+ schemas — `ccrms`, `ctms`, `irb`, `cgr`, `pnt`, `trillium`
-- 🎨 Designed UI layouts in **STERLO's internal platform** *(low-code but make it fashion)*
-- 🐛 Spent 40% time building, 60% time debugging my own builds *(standard ratio)*
-- 🤝 Used `GetCtrlProperty`, `SetCtrlProperty`, `CallApi` — fancy names for "make things work"
+> No Node.js. No npm install. No build step. Pure HTML, CSS, and Tailwind CDN.
 
 ---
 
-## 🚀 Side Quests (Projects)
+## Deployment
 
-<div align="center">
+Deployed on **Vercel** with continuous deployment configured on the `main` branch.
+Every push to `main` triggers an automatic redeploy via Vercel's CI/CD pipeline.
 
-| 🎯 Project | 🛠️ Built With | 🌐 Status |
-|:-----------|:-------------|:----------|
-| 🛒 **Souled Store Clone** | HTML · Tailwind · JS | [🔗 Live — Click Me!](https://cibi0404.github.io) |
-| 📄 **LinkedIn Audit Landing Page** | HTML · CSS · Tailwind | [🔗 Live — Click Me!](https://linkedin-landing-page-tau.vercel.app/) |
-| 🌿 **GreenDen Plant E-Commerce** | HTML · Tailwind | 🚧 Coming Soon |
+```
+Production URL  : https://linkedin-landing-page-tau.vercel.app/
+Branch          : main
+Framework       : Static HTML
+Build Command   : N/A (static)
+Output Dir      : ./
+```
 
-</div>
+To deploy your own fork:
 
-### 🛒 Souled Store Clone
-> *"Because buying from them wasn't enough, I had to clone them too"*
+```bash
+# Install Vercel CLI
+npm i -g vercel
 
-- Full e-commerce UI with **search, filter, cart** — the whole drama
-- Mobile-first because 90% of us browse on phones anyway 📱
-- 🔗 [**Live Demo →**](https://cibi0404.github.io)
-
-### 📄 LinkedIn Audit Landing Page
-> *"A landing page that convinces people to fix their LinkedIn. Ironic, I know."*
-
-- Conversion-focused with CTAs, testimonials, smooth UI
-- Built with Claude's help *(team effort, I provided the coffee)*
-- 🔗 [**Live Demo →**](https://linkedin-landing-page-tau.vercel.app/)
-
-### 🌿 GreenDen Plant E-Commerce
-> *"For people who kill plants but still want to buy more"*
-
-- Multi-section landing page — hero, products, reviews, footer
-- 100% Tailwind, 0% regrets
+# Deploy from project root
+vercel --prod
+```
 
 ---
 
-## 📊 My GitHub Report Card
+## Performance Targets
 
-<div align="center">
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=cibi0404&show_icons=true&theme=github_dark&hide_border=true&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&bg_color=0d1117"/>
-<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cibi0404&layout=compact&theme=github_dark&hide_border=true&title_color=58a6ff&text_color=c9d1d9&bg_color=0d1117"/>
-
-</div>
-
-<div align="center">
-
-<img width="55%" src="https://github-readme-streak-stats.herokuapp.com/?user=cibi0404&theme=github-dark-blue&hide_border=true&stroke=58a6ff&ring=58a6ff&fire=ff7b72&currStreakLabel=58a6ff"/>
-
-</div>
-
-<div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=cibi0404&theme=github-compact&hide_border=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff&area=true&area_color=58a6ff"/>
-</div>
+| Metric | Target |
+|:-------|:-------|
+| First Contentful Paint | < 1.5s |
+| Largest Contentful Paint | < 2.5s |
+| Cumulative Layout Shift | < 0.1 |
+| Mobile Responsiveness | 320px — 1920px |
 
 ---
 
-## 🏅 Paper Certificates I Actually Earned
+## Author
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=html,css,js,bootstrap&theme=dark"/>
+**Parthasarathi M**
+Frontend Developer — Chennai, India
 
-**GUVI Certified** — HTML · CSS · JavaScript · Bootstrap · SQL ✅
+<br/>
 
-📚 **Currently Suffering Through:** React Advanced Hooks · Docker · N8N · freeCodeCamp
-
-</div>
-
----
-
-## 🤝 Let's Connect (I Don't Bite)
-
-<div align="center">
-
-[![Gmail](https://skillicons.dev/icons?i=gmail&theme=dark)](mailto:parthasarathi0404@gmail.com)
-&nbsp;&nbsp;
-[![LinkedIn](https://skillicons.dev/icons?i=linkedin&theme=dark)](https://www.linkedin.com/in/parthasarathi-m-834b99263)
-&nbsp;&nbsp;
-[![GitHub](https://skillicons.dev/icons?i=github&theme=dark)](https://github.com/cibi0404)
-
-`parthasarathi0404@gmail.com` · `Chennai, India 🇮🇳`
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-parthasarathi--m-0077B5?style=flat-square&logo=linkedin&logoColor=white&labelColor=0d1117)](https://www.linkedin.com/in/parthasarathi-m-834b99263)
+&nbsp;
+[![GitHub](https://img.shields.io/badge/GitHub-cibi0404-181717?style=flat-square&logo=github&logoColor=white&labelColor=0d1117)](https://github.com/cibi0404)
+&nbsp;
+[![Gmail](https://img.shields.io/badge/Gmail-parthasarathi0404-D14836?style=flat-square&logo=gmail&logoColor=white&labelColor=0d1117)](mailto:parthasarathi0404@gmail.com)
+&nbsp;
+[![Portfolio](https://img.shields.io/badge/Portfolio-cibi0404.github.io-64ffda?style=flat-square&logo=githubpages&logoColor=white&labelColor=0d1117)](https://cibi0404.github.io)
 
 </div>
 
@@ -167,15 +183,8 @@ const cibi = {
 
 <div align="center">
 
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark"/>
+*If this project was useful, consider dropping a star on the repository — it supports continued open work.*
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:112240,50:0a192f,100:0d1117&height=100&section=footer&animation=fadeIn"/>
 
 </div>
-
-<div align="center">
-
-*"Every senior dev was once a junior who didn't give up."*
-*— Some LinkedIn post I saved at 2AM 😂*
-
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1f2937,50:161b22,100:0d1117&height=120&section=footer&animation=fadeIn"/>
